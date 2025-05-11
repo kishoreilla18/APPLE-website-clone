@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Account</title>
+  <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'SF Pro Display', sans-serif;
+      margin: 0;
+      padding: 0;
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      height: 100vh;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: -10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    .header a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #202224;
+      margin: 0 10px;
+    }
+
+    .header a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      margin-top: 40px;
+    }
+
+    .content h1 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .content p {
+      font-size: 20px;
+      margin-top: 8px;
+      color: #666;
+    }
+
+    .input-container {
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 30px;
+    }
+
+    .input-container input {
+      padding: 18px;
+      font-size: 19px;
+      border: 2px solid #ccc;
+      border-radius: 15px 15px 15px 15px;
+      outline: none;
+      width: 500px;
+    }
+
+    .input-container button {
+      padding: 10px;
+      background: #f0f0f0;
+      border: 1px solid #ccc;
+      border-left: none;
+      border-radius: 20px 20px 20px 20px;
+      cursor: pointer;
+    }
+
+    .input-container button:hover {
+      background-color: #2cabcf;
+    }
+
+    .remember-me {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .remember-me input {
+      margin-right: 8px;
+    }
+
+    .forgot-password {
+      font-size: 14px;
+    }
+
+    .forgot-password a {
+      text-decoration: none;
+      color: #0071e3;
+    }
+
+    .forgot-password a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <nav class="header" >
+      <h3 style="padding-left: 20px; font-size: 25px;">Apple Account</h3>
+      <div>
+        <a href="./index.html">Sign In</a>
+        <a href="#">Create Your Apple Account</a>
+        <a href="#">FAQ</a>
+      </div>
+    </nav><br>
+  <div class="container">
+    <div class="content">
+        <img src="./images/applesignin.png" width="20%">
+      <h1>Apple Account</h1>
+      <p>Manage your Apple Account</p>
+      <div class="input-container">
+        <input type="text" placeholder="Email or Phone Number">
+        <a href="./index.html">
+            <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8.646 11.854a.5.5 0 0 1-.708-.708l2.147-2.146H2.5a.5.5 0 0 1 0-1h7.585L7.938 4.854a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3z"/>
+          </svg>
+        </button>
+        </a>
+      </div>
+      <div class="remember-me">
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">Remember me</label>
+      </div>
+      <div class="forgot-password">
+        <a href="#" style="padding-bottom: 200px;">Forgotten your password?</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
