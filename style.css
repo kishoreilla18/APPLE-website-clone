@@ -36,6 +36,52 @@
     font-size: 11px;
     text-align: center;
 }
+
+/* Dropdown */
+.dropdown {
+    background-color: #f3f4f6;
+    padding: 40px;
+    display: none; /* hidden initially */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    font-size: 14px;
+  }
+
+  .dropdown.show {
+    display: grid; /* show when 'show' class is added */
+  }
+
+  .dropdown h4 {
+    color: #6b7280;
+    margin-bottom: 8px;
+    font-weight: normal;
+  }
+
+  .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dropdown li {
+    margin-bottom: 8px;
+  }
+
+  .dropdown a {
+    text-decoration: none;
+    color: #111827;
+    font-weight: 600;
+  }
+
+  .dropdown a:hover {
+    text-decoration: underline;
+  }
+
+  .blue-link {
+    color: #2563eb;
+    font-weight: normal;
+  }
+
 /* section2 */
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap'); */
 
